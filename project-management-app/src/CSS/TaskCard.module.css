@@ -1,0 +1,126 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+  .completedCard {
+    background-color: var(--gray-300);
+  }
+  
+  .cardContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 9px 12px;
+  }
+  .cardHeader{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .label {
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-right: 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    background: #4579FB;
+  }
+  
+  .high {
+    background-color: #e74c3c;
+  }
+  
+  .medium {
+    background-color: #f1c40f;
+  }
+  
+  .low {
+    background-color: #2ecc71;
+  }
+  
+  .statusLabel {
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  
+  .new {
+    color: #e224f9;
+  }
+  
+  .inprogress {
+    color: #4579FB;
+  }
+  
+  .paused {
+    color: #f0d700;
+  }
+  
+  .tocheck {
+    color: #9ce62a;
+  }
+  
+  .completed {
+    color: #009a28;
+  }
+  
+  .returned {
+    color: #f9245b;
+  }
+  
+  .taskTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .taskProject {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0da8ea;
+    margin-bottom: 5px;
+  }
+  
+  .taskDescription {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .deadline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: #ff9800;
+    font-weight: 700;
+  }
+  
+  .deadlineDate {
+    font-size: 22px;
+    font-weight: 900;
+  }
+  
+  .developerName {
+    font-size: 14px;
+    color: #4579FB;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 11px;
+  }
+  

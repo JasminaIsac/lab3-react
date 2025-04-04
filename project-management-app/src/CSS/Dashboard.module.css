@@ -1,0 +1,27 @@
+.dashboardContainer{
+    flex-shrink: 0;
+    border-radius: 35px 0px 0px 35px;
+    background: #FFF;
+    box-shadow: var(--shadow);
+    padding: 40px 30px;
+    max-width: 100%;
+}
+
+.tasks{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tasks > div{
+    padding: 8px 20px;
+}
+
+.urgentTasks{
+    border-radius: 25px;
+    /* background-color: var(--light-orange); */
+}
+
+
+.greeting, .banner, .projects, .tasks{
+    margin-bottom: 50px;
+}

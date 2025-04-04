@@ -1,0 +1,16 @@
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 15px;
+}
+
+.emptyContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.emptyText {
+  font-size: 18px;
+  color: gray;
+}

@@ -1,0 +1,36 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gradient-blue);
+    padding: 20px;
+    border-radius: 24px;
+    padding: 30px 130px;
+  }
+  
+  .content {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .title {
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .subtitle {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .progressContainer svg{
+    width: 100px;
+  }
+
+  .coffeeImage{
+    height: 140px;
+    width: auto;
+  }

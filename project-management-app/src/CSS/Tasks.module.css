@@ -1,0 +1,66 @@
+.mainContainer{
+    flex-shrink: 0;
+    border-radius: 35px 0px 0px 35px;
+    background: #FFF;
+    box-shadow: var(--shadow);
+    padding: 40px 30px;
+    max-width: 100%;
+}
+
+.dateContainer{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: space-between;
+}
+
+.daysContainer{
+    display: flex;
+    align-items: center;
+}
+
+.dayCard {
+    width: 90px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: var(--light-orange);
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #FFF;
+  }
+  
+  .selectedDay {
+    background-color: var(--orange);
+  }
+
+  .deadline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 0px;
+  }
+  
+  .deadlineDate {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .weekDay {
+    font-size: 13px;
+  }
+  
+  .month {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .taskCount {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+

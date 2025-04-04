@@ -1,0 +1,16 @@
+.greetingContainer{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .todayDate{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .todayDateText{
+    font-size: 18px;
+  }

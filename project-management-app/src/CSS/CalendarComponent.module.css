@@ -1,0 +1,70 @@
+.reactCalendar {
+  border: none;
+  font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+  padding: 10px;
+}
+  
+.taskDay{
+    background-color: var(--light-orange);
+    color: white;
+    /* text-shadow: 
+    1px 1px 1px white, 
+    -1px -1px 1px white,  
+    1px -1px 1px white,  
+    -1px 1px 1px white; */
+}
+
+:global(.react-calendar__tile--now){
+    background-color: var(--light-blue);
+    color: black;
+}
+
+.reactCalendar__tile {
+border-radius: 50%;
+font-size: 14px;
+font-weight: bold;
+color: #333;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 4px;
+transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+:global(.react-calendar__navigation__label) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #4A90E2;
+  text-align: center;
+  padding: 10px 0;
+}
+
+:global(.react-calendar__navigation){
+    margin: 0;
+}
+
+:global(.react-calendar__tile){
+    border-radius: 10px;
+
+}
+
+.taskIndicator{
+    color: var(--orange);
+}
+
+:global(.react-calendar__month-view__weekdays__weekday){
+    color: var(--gray-600);
+    text-decoration: none;
+}
+
+:global(.react-calendar__tile--active){
+    color: #fff;
+    background-color: var(--blue);
+}

@@ -1,0 +1,26 @@
+.filterBar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.filterBar button {
+    background-color: var(--light-blue);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 100px;
+    transition: 0.3s;
+    border: none;
+    color: var(--dark-blue);
+}
+
+.filterBar button:hover {
+    background-color: #b9ccff;
+}
+
+button.activeFilter {
+    background-color: var(--blue);
+    color: white;
+    border-color: none;
+}

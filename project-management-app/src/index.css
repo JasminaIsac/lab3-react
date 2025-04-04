@@ -1,0 +1,38 @@
+:root {
+  --dark-blue: #283271;
+  --blue: #4579FB;
+  --light-blue: #D5E1FF;
+  --dark-orange: #E76F13;
+  --orange: #FF994D;
+  --light-orange: #FFD0AC;
+  --white: #FFFFFF;
+  --gray-400: #E2E2E2;
+  --gray-500: #C1C1C1;
+  --gray-600: #8A8A8A;
+  --gray-700: #484848;
+  --black: #000000;
+  --gradient-blue: linear-gradient(90deg, #4C256D,#4579FB);
+  --gradient-orange: linear-gradient(90deg, #FFA058,#E76F13);
+  --shadow: -3px 2px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100vw;
+}
+#root{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', 'Montserrat', 'Avenir', sans-serif;
+}
+
+h4, h5, h6, p {
+  font-family: 'Rethink Sans', 'Avenir', 'Montserrat', sans-serif;
+}
